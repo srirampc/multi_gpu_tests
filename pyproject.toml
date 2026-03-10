@@ -1,0 +1,19 @@
+
+[tool.black]
+line-length = 100
+
+
+[tool.basedpyright]
+reportAny = false
+reportExplicitAny = false
+reportGeneralTypeIssues = false
+reportMissingTypeStubs = false
+reportMissingTypeArgument = false
+reportOptionalMemberAccess = false
+reportOptionalSubscript = false
+reportUnknownMemberType = false
+reportUnusedCallResult = false
+reportUnknownVariableType = false
+reportUnknownParameterType = false
+reportUnknownArgumentType = false
+reportUninitializedInstanceVariable = false
