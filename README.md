@@ -12,7 +12,8 @@ There four different implementations of the this simple model:
 3. Using pyTorch, with each RNN is torch.nn.RNN.
 4. Using pyTorch, with each RRN is unrolled with a troch.nn.Module.
 
-The first two models are in rnn_tf.py, where as the later two are in rnn_torch.py.
+The first two models are in rnn_tf.py, where as the later two are in rnn_torch.py. Most code 
+were generated with Claude, but were extensively formatted.
 
 The four implementations are run using IMDB dataset for each of the following two cases w.r.t number of GPUs.
 
